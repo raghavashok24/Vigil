@@ -116,8 +116,3 @@ curl http://localhost:8000/orderbook/BTCUSD
 - **Integration tests** against a real DB (not just in-memory fixtures).
 - **Load / chaos tests** — simulate cancel storms, market-order floods, STP-heavy workloads.
 
----
-
-## Claude Code Export
-
-This project was built using the assistance of **Claude Code** (Anthropic's agentic CLI). The session transcript / export is included in `claude_code_export.md`.
