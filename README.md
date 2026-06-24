@@ -296,5 +296,4 @@ tests/
   test_api.py    — 19 API integration tests
 README.md
 requirements.txt
-claude_code_export.md
 ```
