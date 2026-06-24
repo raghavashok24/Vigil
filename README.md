@@ -120,4 +120,4 @@ curl http://localhost:8000/orderbook/BTCUSD
 
 ## Claude Code Export
 
-This project was built end-to-end using **Claude Code** (Anthropic's agentic CLI). The session transcript / export is included in `claude_code_export.md`.
+This project was built using the assistance of **Claude Code** (Anthropic's agentic CLI). The session transcript / export is included in `claude_code_export.md`.
