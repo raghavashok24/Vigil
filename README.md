@@ -298,9 +298,3 @@ README.md
 requirements.txt
 claude_code_export.md
 ```
-
----
-
-## Built With Claude Code
-
-Every line of application code, test code, and documentation was generated in a single session using **Claude Code** (Anthropic's agentic CLI). The session export is in `claude_code_export.md`.
