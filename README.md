@@ -224,7 +224,7 @@ The matching loop is pure Python dict/deque operations — no I/O, no serialisat
 
 ## What I'd Do With More Time
 
-### 1. Persistence — the most critical gap
+### 1. Persistence 
 
 An in-memory engine loses every open order on restart. In a fast-moving market, even a 30-second outage causes significant harm.
 
@@ -235,16 +235,6 @@ Current:  HTTP → Python lock → in-memory dict
 Target:   HTTP → Python lock → DB transaction → WAL → replica
 ```
 
-### 2. Decimal arithmetic
-
-Float addition at the 0.5+0.5 boundary fails without rounding:
-
-```python
->>> 0.1 + 0.9 == 1.0
-False   # float representation error
-```
-
-The correct fix is `decimal.Decimal` throughout, or fixed-point integers (prices stored as integers × 10000).
 
 ### 3. True sub-millisecond matching at scale
 
