@@ -222,7 +222,7 @@ The matching loop is pure Python dict/deque operations — no I/O, no serialisat
 
 ---
 
-## What I'd Do With More Time
+## What I Would Do With More Time
 
 ### 1. Persistence 
 
